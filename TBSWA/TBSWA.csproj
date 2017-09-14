@@ -76,10 +76,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Themes\App_Themes\FallTheme\Images\Fall Waterfall.jpg" />
-    <Content Include="App_Themes\App_Themes\FallTheme\Images\Fall.jpg" />
-    <Content Include="App_Themes\App_Themes\FallTheme\Images\Sunset.jpg" />
+    <Content Include="App_Themes\FallTheme\Images\Fall Waterfall.jpg" />
+    <Content Include="App_Themes\FallTheme\Images\Fall.jpg" />
+    <Content Include="App_Themes\FallTheme\Images\Sunset.jpg" />
     <Content Include="Controls\Banner.ascx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\LeftSide.ascx" />
+    <Content Include="Controls\Navigation.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -97,6 +100,27 @@
     </Compile>
     <Compile Include="Controls\Banner.ascx.designer.cs">
       <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LeftSide.ascx.cs">
+      <DependentUpon>LeftSide.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LeftSide.ascx.designer.cs">
+      <DependentUpon>LeftSide.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Navigation.ascx.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Navigation.ascx.designer.cs">
+      <DependentUpon>Navigation.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
