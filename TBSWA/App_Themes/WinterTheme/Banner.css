@@ -1,5 +1,5 @@
-﻿/*Fall Banner.css*/
-.TopContent 
+﻿/*Winter Banner.css*/
+.TopContent
 {
     color: #ffffff; /*White*/
     font-size: 30px;
@@ -7,7 +7,7 @@
     height: 100px;
     margin-left: 40px;
     margin-right: auto;
-    background-image: url('Images/FallLogo.png');
+    background-image: url('Images/WinterLogo.png');
 }
 
 .PrimaryNavigation {
@@ -23,6 +23,7 @@
 {
     float: left;
     list-style: none;
+    
 }
 
 .PrimaryNavigation a 
@@ -40,7 +41,6 @@
 
 .PrimaryNavigation a:hover
 {
-    background: #cc6633; /*Pumpkin Pie*/
+    background: #06faeb; /*Ice Blue*/
     color: #333333; /*Faded Black*/
 }
-

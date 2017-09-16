@@ -2,4 +2,4 @@
 
 <!--This is a comment-->
 <!--Must register on Bookstore.Master page: Lecture 4-->
-<asp:Label ID="lblBanner" Text="Banner Area" runat="server" />
+<asp:Label ID="lblBanner" Text=" " runat="server" />

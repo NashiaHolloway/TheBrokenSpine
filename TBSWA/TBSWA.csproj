@@ -68,7 +68,13 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="App_Themes\FallTheme\Banner.css" />
-    <Content Include="App_Themes\FallTheme\Images\FallSunset.PNG" />
+    <Content Include="App_Themes\FallTheme\Images\FallLogo.png" />
+    <Content Include="App_Themes\SpringTheme\Banner.css" />
+    <Content Include="App_Themes\SpringTheme\Images\SpringLogo.png" />
+    <Content Include="App_Themes\SummerTheme\Banner.css" />
+    <Content Include="App_Themes\SummerTheme\Images\SummerLogo.png" />
+    <Content Include="App_Themes\WinterTheme\Banner.css" />
+    <Content Include="App_Themes\WinterTheme\Images\WinterLogo.png" />
     <Content Include="Bookstore.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -83,9 +89,6 @@
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Themes\FallTheme\Images\Fall Waterfall.jpg" />
-    <Content Include="App_Themes\FallTheme\Images\Fall.jpg" />
-    <Content Include="App_Themes\FallTheme\Images\Sunset.jpg" />
     <Content Include="Controls\Banner.ascx" />
     <Content Include="Controls\Footer.ascx" />
     <Content Include="Controls\LeftSide.ascx" />
@@ -166,11 +169,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Themes\SpringTheme\" />
-    <Folder Include="App_Themes\SummerTheme\" />
-    <Folder Include="App_Themes\WinterTheme\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
