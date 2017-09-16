@@ -1,5 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Bookstore.master.cs" Inherits="TBSWA.Bookstore" %>
+<!--Banner register-->
 <%@ Register Src="~/Controls/Banner.ascx" TagName="Banner" TagPrefix="ucBan" %>
+<!--Navigation register-->
+<%@ Register Src="~/Controls/Navigation.ascx" TagName="Navigation" TagPrefix="ucNav" %>
+<!--Footer register-->
+<%@ Register Src="~/Controls/Footer.ascx" TagName="Footer" TagPrefix="ucFoot" %>
+
+
 
 <!DOCTYPE html>
 
@@ -10,9 +17,24 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <header>
+    <!--Banner CSS and stuff start-->
+    <header class="TopContent">
+        <!--Banner user control-->
         <ucBan:Banner ID="Banner" runat="server" />
     </header>
+    <!--Navigation CSS and stuff start-->
+    <nav class="PrimaryNavigation">
+        <ul>
+            <asp:SiteMapDataSource ID="siteMapData" runat="server" ShowStartingNode="false" />
+            <asp:Repeater ID="menu" runat="server" DataSourceID="siteMapData">
+                <ItemTemplate>
+                    <li>
+                        <a href="<%# Eval("url") %>"><%# Eval("title") %></a>
+                    </li>
+                </ItemTemplate>
+            </asp:Repeater>
+        </ul>
+    </nav>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
