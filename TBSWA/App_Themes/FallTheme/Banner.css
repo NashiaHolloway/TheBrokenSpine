@@ -11,40 +11,35 @@
 
 .PrimaryNavigation
 {
-    font-family: Arial;
-    font-size: 24px;
+    font-family: Futura;
+    font-size: 17px;
     position: relative;
-    padding: 0 0 0 0;
-    margin: 1px;
-    line-height: 1.5em;
-    left: -40px;
-    top: -22px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .PrimaryNavigation li 
 {
     float: left;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
 
 .PrimaryNavigation a 
 {
     display: block;
-    color: #fff;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
-    background: blue;
-    margin: 0;
-    padding: 0.25em .65em;
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
-    border-right: 1px solid Lime;
+    padding: 14px 16px;
+    background: #333333; /*Faded Black*/
 }
 
 .PrimaryNavigation a:hover
 {
-    background: #bbb;
+    background: #cc6633; /*Pumpkin Pie*/
+    color: #333333; /*Faded Black*/
 }
 

@@ -69,7 +69,6 @@
     <Content Include="About.aspx" />
     <Content Include="App_Themes\FallTheme\Banner.css" />
     <Content Include="App_Themes\FallTheme\Images\FallSunset.PNG" />
-    <Content Include="App_Themes\FallTheme\Nav.css" />
     <Content Include="Bookstore.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
