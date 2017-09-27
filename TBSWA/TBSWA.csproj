@@ -64,8 +64,17 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph.Web">
+      <HintPath>..\..\..\..\Desktop\ZedGraph.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DLL\ZedGraph.dll" />
+    <Content Include="DLL\ZedGraph.Web.XML" />
     <Content Include="Pages\About.aspx" />
     <Content Include="App_Themes\FallTheme\Banner.css" />
     <Content Include="App_Themes\FallTheme\Images\FallLogo.png" />
@@ -190,6 +199,9 @@
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>WebResources.Designer.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ZedGraphImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
