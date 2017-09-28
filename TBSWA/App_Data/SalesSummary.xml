@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sales>
+  <dayOfWeek>
+    <day>Sun</day>
+    <totalSales>5433</totalSales>
+  </dayOfWeek>
+  <dayOfWeek>
+    <day>Mon</day>
+    <totalSales>6978</totalSales>
+  </dayOfWeek>
+  <dayOfWeek>
+    <day>Tues</day>
+    <totalSales>7000</totalSales>
+  </dayOfWeek>
+</sales>

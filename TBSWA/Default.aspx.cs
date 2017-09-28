@@ -7,6 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using ZedGraph;
 using ZedGraph.Web;
+using System.Data;
 
 namespace TBSWA
 {
@@ -14,7 +15,11 @@ namespace TBSWA
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DataSet ds = new DataSet();
+            ds.ReadXml(MapPath(".") + "/App_Data/SalesSummary.xml");
+            DataTable dt = ds.Tables[0];
+            DataView dataView = new DataView(dt);
+            Chart1.Series[0].Points.DataBindXY(dataView, "day", dataView, "totalSales");
         }
 
         protected void ZedGraphWeb1_RenderGraph(ZedGraphWeb webObject, Graphics g, MasterPane pane)
