@@ -87,6 +87,7 @@
     <Content Include="App_Themes\WinterTheme\Banner.css" />
     <Content Include="App_Themes\WinterTheme\Images\WinterLogo.png" />
     <Content Include="Bookstore.Master" />
+    <Content Include="Handlers\JSONAJAX.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -108,6 +109,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\Person.cs" />
+    <Compile Include="App_Code\Address.cs" />
     <Compile Include="App_GlobalResources\WebResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,6 +120,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WebResources.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\JSONAJAX.ashx.cs">
+      <DependentUpon>JSONAJAX.ashx</DependentUpon>
     </Compile>
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
