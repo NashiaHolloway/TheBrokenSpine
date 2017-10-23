@@ -7,6 +7,7 @@ namespace TBSWA.App_Code
     //create our own utility for exceptions
     public sealed class ExceptionUtility
     {
+        /*
         //all methods are static, so this can be private
         private ExceptionUtility()
         {
@@ -51,6 +52,7 @@ namespace TBSWA.App_Code
         {
             // Include code for notifying IT system operators
         }
+        */
 
     }
 }
