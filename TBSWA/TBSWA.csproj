@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>DLL\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -74,6 +77,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\ErrorLog.txt" />
     <Content Include="App_Data\SalesSummary.xml" />
     <Content Include="DLL\ZedGraph.dll" />
     <Content Include="DLL\ZedGraph.Web.XML" />
@@ -109,6 +113,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\ExceptionUtility.cs" />
     <Compile Include="App_Code\Person.cs" />
     <Compile Include="App_Code\Address.cs" />
     <Compile Include="App_GlobalResources\WebResources.Designer.cs">
