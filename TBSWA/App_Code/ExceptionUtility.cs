@@ -7,10 +7,14 @@ namespace TBSWA.App_Code
     //create our own utility for exceptions
     public sealed class ExceptionUtility
     {
-        /*
+
         //all methods are static, so this can be private
-        private ExceptionUtility()
+        private ExceptionUtility() { }
+
+        public static void LogException(Exception exc, string source)
         {
+
+
             //include enterprise logic for logging exceptions
             //get the absolute path to the log file
             string logFile = "/App_Data/ErrorLog.txt";
@@ -45,6 +49,7 @@ namespace TBSWA.App_Code
                 sw.WriteLine();
             }
             sw.Close();
+        
         }
 
         // Notify System Operators about an exception
@@ -52,7 +57,7 @@ namespace TBSWA.App_Code
         {
             // Include code for notifying IT system operators
         }
-        */
+        
 
     }
 }

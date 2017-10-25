@@ -30,7 +30,7 @@ namespace TBSWA
             catch (Exception ex)
             {
                 //TBSWA.App_Code.ExceptionUtility.LogException(ex, "Calendar");
-               // logger.Error("Login Error", ex);
+                logger.Error("Login Error", ex);
             }
         }
     }
