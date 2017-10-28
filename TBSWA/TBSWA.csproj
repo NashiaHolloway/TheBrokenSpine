@@ -120,6 +120,11 @@
     <Content Include="App_Code\ExceptionUtility.cs" />
     <Compile Include="App_Code\Person.cs" />
     <Compile Include="App_Code\Address.cs" />
+    <Compile Include="App_GlobalResources\WebResources.de.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebResources.de.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\WebResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -129,6 +134,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WebResources.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\WebResources.pt.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebResources.pt.resx</DependentUpon>
     </Compile>
     <Compile Include="Handlers\JSONAJAX.ashx.cs">
       <DependentUpon>JSONAJAX.ashx</DependentUpon>
@@ -219,6 +229,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ZedGraphImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\WebResources.de.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>WebResources.de.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\WebResources.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>WebResources.pt.designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

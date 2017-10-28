@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>Acerca de</value>
+    <value>Uber</value>
   </data>
   <data name="Browse" xml:space="preserve">
-    <value>Vistazo</value>
+    <value>Blattern</value>
   </data>
   <data name="Contact" xml:space="preserve">
-    <value>Contacto</value>
+    <value>Kontakt</value>
   </data>
   <data name="Events" xml:space="preserve">
-    <value>Eventos</value>
+    <value>Veranstaltungen</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Casa</value>
+    <value>Zuhause</value>
   </data>
 </root>
