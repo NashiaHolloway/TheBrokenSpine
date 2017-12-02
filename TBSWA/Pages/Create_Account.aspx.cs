@@ -11,12 +11,14 @@ namespace TBSWA.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void Submit_Click(object sender, EventArgs e)
         {
+            string message = "Thank you!";
 
+            ClientScript.RegisterClientScriptBlock(this.GetType(), "alert", message);
         }
     }
 }
