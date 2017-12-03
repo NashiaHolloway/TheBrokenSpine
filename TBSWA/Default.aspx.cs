@@ -19,7 +19,7 @@ namespace TBSWA
             ds.ReadXml(MapPath(".") + "/App_Data/SalesSummary.xml");
             DataTable dt = ds.Tables[0];
             DataView dataView = new DataView(dt);
-            Chart1.Series[0].Points.DataBindXY(dataView, "day", dataView, "totalSales");
+            //Chart1.Series[0].Points.DataBindXY(dataView, "day", dataView, "totalSales");
         }
 
         protected void ZedGraphWeb1_RenderGraph(ZedGraphWeb webObject, Graphics g, MasterPane pane)

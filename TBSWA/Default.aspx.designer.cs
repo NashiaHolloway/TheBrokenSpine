@@ -11,23 +11,5 @@ namespace TBSWA {
     
     
     public partial class Default {
-        
-        /// <summary>
-        /// ZedGraphWeb1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::ZedGraph.Web.ZedGraphWeb ZedGraphWeb1;
-        
-        /// <summary>
-        /// Chart1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart1;
     }
 }

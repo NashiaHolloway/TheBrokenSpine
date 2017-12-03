@@ -5,6 +5,6 @@
     <siteMapNode url="~/Pages/About.aspx" title="About"  description="About page" />
     <siteMapNode url="~/Pages/Browse.aspx" title="Browse"  description="Browse Books page" />
     <siteMapNode url="~/Pages/Events.aspx" title="Events"  description="Events page" />
-    <siteMapNode url="~/Pages/Contact.aspx" title="Contact"  description="Contact page" /> 
+    <siteMapNode url="~/Pages/Contact.aspx" title="Contact"  description="Contact page" />
   </siteMapNode>
 </siteMap>

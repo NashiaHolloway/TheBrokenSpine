@@ -32,10 +32,10 @@
     text-decoration: none;
     font-weight: bold;    
     background: #333333; /*Faded Black*/
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .PrimaryNavigation a:hover
