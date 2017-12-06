@@ -12,7 +12,8 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <link type="text/css" rel="stylesheet" href="App_Themes/FallTheme/Banner.css" />
+    <title>The Broken Spine</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -36,7 +37,7 @@
         </ul>
     </nav>
     <form id="form1" runat="server">
-        <div>
+        <div style="margin:0; position:center">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

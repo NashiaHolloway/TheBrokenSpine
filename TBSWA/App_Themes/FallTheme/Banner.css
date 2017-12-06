@@ -43,3 +43,18 @@
     background: #cc6633; /*Pumpkin Pie*/
     color: #333333; /*Faded Black*/
 }
+
+.main {
+    float: left;
+    width: 786px;
+    height: 9500px;
+    background: #e5e4d7;
+    border-right: solid 2px #000;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    solid;
+    font-family: Arial;
+    font-size: 16px;
+    overflow: auto;
+    border-bottom-right-radius:1em;
+}

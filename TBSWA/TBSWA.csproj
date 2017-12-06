@@ -91,6 +91,14 @@
     <Content Include="App_Data\SalesSummary.xml" />
     <Content Include="DLL\ZedGraph.dll" />
     <Content Include="DLL\ZedGraph.Web.XML" />
+    <Content Include="Images\book1.jpg" />
+    <Content Include="Images\book2.jpg" />
+    <Content Include="Images\book3.jpg" />
+    <Content Include="Images\book4.jpg" />
+    <Content Include="Images\book5.jpg" />
+    <Content Include="Images\book6.jpg" />
+    <Content Include="Images\book7.jpg" />
+    <Content Include="Images\book8.jpg" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>

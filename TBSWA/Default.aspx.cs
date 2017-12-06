@@ -26,24 +26,34 @@ namespace TBSWA
         {
             //GraphPane class came from the ZedGraph DLL
             GraphPane myPane = pane[0]; //create an empty Graph Pane object
-            myPane.Title.Text = "Title"; //Title text property of pane object
-            myPane.XAxis.Title.Text = "X axis label"; //Title X axis label text property
-            myPane.YAxis.Title.Text = "Y axis label"; //Title Y axis label text property
+            myPane.Title.Text = "The Broken Spine Busy Hours"; //Title text property of pane object
+            myPane.XAxis.Title.Text = "Time (Hours)"; //Title X axis label text property
+            myPane.YAxis.Title.Text = "Number of People"; //Title Y axis label text property
             //PointPairList class came from the ZedGraph DLL
             PointPairList list1 = new PointPairList(); //New Point Pair List object
             //Create some plotting line to display
             for (int i = 0; i < 10; i++)
             {
                 double x = Convert.ToDouble(i);
-                double y = x * x;
+                double y = x + x ;
                 list1.Add(x, y);
             }
             //Use a LineItem type chart came from the ZedGraph DLL
-            string textForLegend = "x-squared";
+            string textForLegend = "Customers Throughout the Day";
             myPane.CurveList.Clear();
             LineItem myCurve = myPane.AddCurve(textForLegend,
               list1, Color.Red, SymbolType.Diamond);
             myCurve.Symbol.IsVisible = true;
+        }
+
+        protected void Account(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Pages/Create_Account.aspx");
+        }
+
+        protected void Student(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Pages/Student.aspx");
         }
     }
 }
