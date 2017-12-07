@@ -117,19 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About" xml:space="preserve">
-    <value>Acerca de</value>
+  <data name="Broken" xml:space="preserve">
+    <value>Roto</value>
   </data>
-  <data name="Browse" xml:space="preserve">
-    <value>Vistazo</value>
+  <data name="Spine" xml:space="preserve">
+    <value>Columna</value>
   </data>
-  <data name="Contact" xml:space="preserve">
-    <value>Contacto</value>
-  </data>
-  <data name="Events" xml:space="preserve">
-    <value>Eventos</value>
-  </data>
-  <data name="Home" xml:space="preserve">
-    <value>Casa</value>
+  <data name="The" xml:space="preserve">
+    <value>La</value>
   </data>
 </root>

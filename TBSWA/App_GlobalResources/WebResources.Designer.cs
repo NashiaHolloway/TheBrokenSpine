@@ -61,47 +61,29 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About.
+        ///   Looks up a localized string similar to Broken.
         /// </summary>
-        internal static string About {
+        internal static string Broken {
             get {
-                return ResourceManager.GetString("About", resourceCulture);
+                return ResourceManager.GetString("Broken", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Browse.
+        ///   Looks up a localized string similar to Spine.
         /// </summary>
-        internal static string Browse {
+        internal static string Spine {
             get {
-                return ResourceManager.GetString("Browse", resourceCulture);
+                return ResourceManager.GetString("Spine", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Contact.
+        ///   Looks up a localized string similar to The.
         /// </summary>
-        internal static string Contact {
+        internal static string The {
             get {
-                return ResourceManager.GetString("Contact", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Events.
-        /// </summary>
-        internal static string Events {
-            get {
-                return ResourceManager.GetString("Events", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Home.
-        /// </summary>
-        internal static string Home {
-            get {
-                return ResourceManager.GetString("Home", resourceCulture);
+                return ResourceManager.GetString("The", resourceCulture);
             }
         }
     }
