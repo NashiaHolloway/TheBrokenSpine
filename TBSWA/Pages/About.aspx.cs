@@ -49,7 +49,7 @@ namespace TBSWA
 
         protected void Student(object sender, EventArgs e)
         {
-            Response.Redirect("~/Pages/Student.aspx");
+            Response.Redirect("~/Pages/Browse.aspx");
         }
     }
 }

@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ErrorLog.txt" />
+    <Content Include="App_Data\ProductCatalog.xml" />
     <Content Include="App_Data\SalesSummary.xml" />
     <Content Include="DLL\ZedGraph.dll" />
     <Content Include="DLL\ZedGraph.Web.XML" />

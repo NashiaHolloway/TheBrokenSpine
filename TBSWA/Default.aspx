@@ -4,8 +4,7 @@
 
 
 <asp:Content ID="ContentPlaceholder" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
-    <img src="Images/book5.jpg" alt="" />
-
+   <img src="Images/book5.jpg" class="pic" alt=""/>
     
 </asp:Content>
 

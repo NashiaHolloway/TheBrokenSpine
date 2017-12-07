@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<catalog>
+  <book>
+    <code>1</code>
+    <name>Boy, Snow, Bird</name>
+    <author>Helen Oyeyemi</author>
+    <genre>Fiction</genre>
+    <price>2.00</price>
+  </book>
+  <book>
+    <code>2</code>
+    <name>1Q84</name>
+    <author>Haruki MUrakami</author>
+    <genre>Fiction</genre>
+    <price>2.00</price>
+  </book>
+  <book>
+    <code>3</code>
+    <name>The Bluest Eye</name>
+    <author>Toni Morrison</author>
+    <genre>Fiction</genre>
+    <price>2.00</price>
+  </book>
+  <book>
+    <code>4</code>
+    <name>Atlas Shrugged</name>
+    <author>Ayn Rand</author>
+    <genre>Fiction</genre>
+    <price>4.00</price>
+  </book>
+  <book>
+    <code>5</code>
+    <name>Gravity's Rainbow</name>
+    <author>Thomas Pynchon</author>
+    <genre>Fiction</genre>
+    <price>2.00</price>
+  </book>
+  <book>
+    <code>5</code>
+    <name>To Kill A Mokingbird</name>
+    <author>Harper Lee</author>
+    <genre>Fiction</genre>
+    <price>2.00</price>
+  </book>
+</catalog>

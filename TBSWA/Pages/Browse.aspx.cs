@@ -16,6 +16,15 @@ namespace TBSWA
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                DataSet productCatalog = new DataSet();
+                productCatalog.ReadXml(MapPath("~/App_Data/ProductCatalog.xml"));
+                pCatalog.DataSource = productCatalog;
+                pCatalog.DataBind();
+            }
+
+
             log4net.Config.XmlConfigurator.Configure();
 
             try
